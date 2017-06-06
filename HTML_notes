@@ -1,4 +1,0 @@
-HTML learning
-
-# run the code and set every change in the current directory is reflected on the web page
-browser-sync start --server --directory --files "*"

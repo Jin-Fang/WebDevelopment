@@ -1,0 +1,87 @@
+HTML learning
+Hypertext Markup Language
+
+# run the code and set every change in the current directory is reflected on the web page
+browser-sync start --server --directory --files "*"
+
+HTML provides the structure
+what are the components make up the website
+CSS provides style
+color, font size ...
+Javascript provides behaviour
+
+
+HTML Tags
+
+paragraph: <p>   </p>
+line break: <br> (only have opening tag)
+horizontal rul: <hr> (only have closing tag)
+heading: <h1></h1>, <h2></h2> ...
+
+predefined attributes: attribute name => attribute value
+<p id="myId">   </p> 
+(must have one space after the p)
+(HTML5 doesn't require to use quote for the attribute value)
+(quote into quote the same as Python)
+
+HTML structure
+
+<html> -> <head> -> <meta charset="utf-8"> -> <title> -> </head>
+
+block-level element
+- render to begin on a new line by defalt
+- may contain inline or other block-level elements
+
+inline elements
+- render on the same line
+- may only contain other inline elements
+
+<div></div> is block-level element
+<span></span> is inline elements
+<img src="www."> is inline elemenet
+
+
+Semantic html elements
+- the element that implies some meaning to the content
+
+
+Escape three characters and use entity reference
+< : &lt
+> : &gt
+& : &amp
+copy right: &copy
+non-breaking space: &nbsp (use it in between text that should not seperate when web size is changing)
+" : &quot;
+
+target="_blank" - open the link in a new tab
+
+use <a href="#top"></a> to link to the part with id = "top"
+
+image:
+if url is broken, it will break the layout as image won't show
+if width and height are specified, and the url is broken, the space will be blank for that image and make the layout intact
+
+option+command+i open chrome developer tool
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
